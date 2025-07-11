@@ -1,0 +1,29 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments (in case you create one later)
+venv/
+.env
+.env.*
+
+# Jupyter Notebook checkpoints (if used later)
+.ipynb_checkpoints/
+
+# VS Code and PyCharm settings
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Docker artifacts (optional, if generated)
+*.container
+*.pid
+*.tar
+
