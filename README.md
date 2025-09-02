@@ -64,7 +64,7 @@ ChangeFormer (changeformer/) – Transformer-based architecture for change detec
 
 BIT (bit/) – Bitemporal Image Transformer
 
-## 📊 Model Comparison\
+## 📊 Model Comparison
 The following table compares the performance of different change detection models implemented in this repository:
 
 | Model                        | Dice Score | Accuracy (%) |
@@ -77,7 +77,7 @@ The following table compares the performance of different change detection model
 
 ⚡ Residual Attention U-Net achieved the highest Dice Score and Accuracy among the tested models.
 
-##📦 Requirements
+## 📦 Requirements
 Each model has a requirements.txt with its dependencies. To install locally (without Docker):
 
 ```bash
