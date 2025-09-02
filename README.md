@@ -8,7 +8,9 @@ Each model is organized into its own folder with dataset handling, training, and
 ## 📂 Repository Structure
 
 change_detection_models/
+
 attunet/   #Attention U-Net
+
 raunet/   #Residual Attention U-Net
 unetpp/   #U-Net++
 changeformer/   #ChangeFormer (Transformer-based model)
