@@ -31,6 +31,7 @@ Each subfolder contains:
 ```bash
 git clone https://github.com/kabraashish789/change_detection_models.git
 cd change_detection_models
+```
 
 ### 2. Build the Docker image
 Each model folder has its own Dockerfile. Example for Attention U-Net:
@@ -38,16 +39,19 @@ Each model folder has its own Dockerfile. Example for Attention U-Net:
 ```bash
 cd attunet
 docker build -t attunet .
+```
 
 ### 3. Run the container
 ```bash
 docker run -it --rm attunet
+```
 
 ### 4. Train the model
 Inside the container:
 
 ```bash
 python train.py
+```
 
 ## 🧩 Available Models
 Attention U-Net (attunet/) – U-Net with attention gates for improved feature selection
@@ -78,6 +82,7 @@ Each model has a requirements.txt with its dependencies. To install locally (wit
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## 📊 Datasets
 You can plug in your own change detection dataset (bi-temporal image pairs + labels).
