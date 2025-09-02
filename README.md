@@ -8,12 +8,11 @@ Each model is organized into its own folder with dataset handling, training, and
 ## 📂 Repository Structure
 
 change_detection_models/
-attunet/   #Attention U-Net
-
-raunet/   #Residual Attention U-Net
-unetpp/   #U-Net++
-changeformer/   #ChangeFormer (Transformer-based model)
-bit/   #BIT (Bitemporal Image Transformer)
+ - attunet/   #Attention U-Net
+ - raunet/   #Residual Attention U-Net
+ - unetpp/   #U-Net++
+ - changeformer/   #ChangeFormer (Transformer-based model)
+ - bit/   #BIT (Bitemporal Image Transformer)
 
 Each subfolder contains:
 - `dataset.py` – Dataset loading and preprocessing  
