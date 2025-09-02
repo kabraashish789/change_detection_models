@@ -1,6 +1,6 @@
 # Change Detection Models
 
-This repository contains implementations of several **deep learning–based change detection algorithms** for remote sensing and computer vision tasks.  
+This repository contains implementations of several **deep learning–based change detection algorithms** for computer vision tasks.  
 Each model is organized into its own folder with dataset handling, training, and utility scripts.
 
 ---
